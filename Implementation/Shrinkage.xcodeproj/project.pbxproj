@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00DEAB214E6A436007347DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00DEAB114E6A436007347DB /* Cocoa.framework */; };
+		A00DEABC14E6A436007347DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A00DEABA14E6A436007347DB /* InfoPlist.strings */; };
+		A00DEABE14E6A436007347DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A00DEABD14E6A436007347DB /* main.m */; };
+		A00DEAC214E6A436007347DB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A00DEAC014E6A436007347DB /* Credits.rtf */; };
+		A00DEAC514E6A436007347DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A00DEAC414E6A436007347DB /* AppDelegate.m */; };
+		A00DEAC814E6A436007347DB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00DEAC614E6A436007347DB /* MainMenu.xib */; };
+		A00DEACB14E6A436007347DB /* Shrinkage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A00DEAC914E6A436007347DB /* Shrinkage.xcdatamodeld */; };
+		A00DEAD314E6A436007347DB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00DEAD214E6A436007347DB /* SenTestingKit.framework */; };
+		A00DEAD414E6A436007347DB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00DEAB114E6A436007347DB /* Cocoa.framework */; };
+		A00DEADC14E6A436007347DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A00DEADA14E6A436007347DB /* InfoPlist.strings */; };
+		A00DEADF14E6A436007347DB /* ShrinkageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A00DEADE14E6A436007347DB /* ShrinkageTests.m */; };
+		A00DEAF214E6A464007347DB /* SCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = A00DEAEE14E6A464007347DB /* SCEvent.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A00DEAF314E6A464007347DB /* SCEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = A00DEAF114E6A464007347DB /* SCEvents.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A00DEAF714E6A4DF007347DB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00DEAF614E6A4DF007347DB /* CoreServices.framework */; };
+		A00DEAFA14E6A714007347DB /* ImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A00DEAF914E6A714007347DB /* ImageFile.m */; };
+		A00DEAFE14E6A7DC007347DB /* ResizeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00DEAFD14E6A7DC007347DB /* ResizeController.m */; };
+		A00ECE7F14EFD79C003D8AE6 /* rizerLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A00ECE7E14EFD79C003D8AE6 /* rizerLogo.png */; };
+		A07B19A814EE8BDF0028C315 /* AdvancedPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07B19A614EE8BDF0028C315 /* AdvancedPreferencesViewController.m */; };
+		A07B19A914EE8BDF0028C315 /* AdvancedPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A07B19A714EE8BDF0028C315 /* AdvancedPreferencesViewController.xib */; };
+		A081CEE614EFCD200034065A /* ShrinkageIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A081CEE514EFCD200034065A /* ShrinkageIcon.icns */; };
+		A08831EC14F9262900E04F66 /* LaunchAtLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08831EA14F9262900E04F66 /* LaunchAtLoginController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A08831ED14F9262900E04F66 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A08831EB14F9262900E04F66 /* README.md */; };
+		A0887BC014EE3E8E00C61067 /* MASPreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0887BBC14EE3E8E00C61067 /* MASPreferencesWindow.xib */; };
+		A0887BC114EE3E8E00C61067 /* MASPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0887BBF14EE3E8E00C61067 /* MASPreferencesWindowController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A0887BC914EE3FE100C61067 /* GeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0887BC714EE3FE100C61067 /* GeneralPreferencesViewController.m */; };
+		A0887BCA14EE3FE100C61067 /* GeneralPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0887BC814EE3FE100C61067 /* GeneralPreferencesViewController.xib */; };
+		A0C3F67714E6F7660086C81B /* statusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C3F67614E6F7660086C81B /* statusBarIcon.png */; };
+		A0C3F67914E6F7EB0086C81B /* alternateStatusBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0C3F67814E6F7EB0086C81B /* alternateStatusBarIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A00DEAD514E6A436007347DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00DEAA414E6A436007347DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A00DEAAC14E6A436007347DB;
+			remoteInfo = Shrinkage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A00DEAAD14E6A436007347DB /* Shrinkage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shrinkage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00DEAB114E6A436007347DB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A00DEAB414E6A436007347DB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A00DEAB514E6A436007347DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A00DEAB614E6A436007347DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A00DEAB914E6A436007347DB /* Shrinkage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shrinkage-Info.plist"; sourceTree = "<group>"; };
+		A00DEABB14E6A436007347DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A00DEABD14E6A436007347DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A00DEABF14E6A436007347DB /* Shrinkage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shrinkage-Prefix.pch"; sourceTree = "<group>"; };
+		A00DEAC114E6A436007347DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A00DEAC314E6A436007347DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A00DEAC414E6A436007347DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A00DEAC714E6A436007347DB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A00DEACA14E6A436007347DB /* Shrinkage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shrinkage.xcdatamodel; sourceTree = "<group>"; };
+		A00DEAD114E6A436007347DB /* ShrinkageTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShrinkageTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00DEAD214E6A436007347DB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A00DEAD914E6A436007347DB /* ShrinkageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShrinkageTests-Info.plist"; sourceTree = "<group>"; };
+		A00DEADB14E6A436007347DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A00DEADD14E6A436007347DB /* ShrinkageTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShrinkageTests.h; sourceTree = "<group>"; };
+		A00DEADE14E6A436007347DB /* ShrinkageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShrinkageTests.m; sourceTree = "<group>"; };
+		A00DEAEC14E6A464007347DB /* SCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCConstants.h; sourceTree = "<group>"; };
+		A00DEAED14E6A464007347DB /* SCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEvent.h; sourceTree = "<group>"; };
+		A00DEAEE14E6A464007347DB /* SCEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEvent.m; sourceTree = "<group>"; };
+		A00DEAEF14E6A464007347DB /* SCEventListenerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEventListenerProtocol.h; sourceTree = "<group>"; };
+		A00DEAF014E6A464007347DB /* SCEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEvents.h; sourceTree = "<group>"; };
+		A00DEAF114E6A464007347DB /* SCEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEvents.m; sourceTree = "<group>"; };
+		A00DEAF614E6A4DF007347DB /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		A00DEAF814E6A714007347DB /* ImageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFile.h; sourceTree = "<group>"; };
+		A00DEAF914E6A714007347DB /* ImageFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFile.m; sourceTree = "<group>"; };
+		A00DEAFC14E6A7DC007347DB /* ResizeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeController.h; sourceTree = "<group>"; };
+		A00DEAFD14E6A7DC007347DB /* ResizeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizeController.m; sourceTree = "<group>"; };
+		A00ECE7E14EFD79C003D8AE6 /* rizerLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rizerLogo.png; sourceTree = "<group>"; };
+		A07B19A514EE8BDF0028C315 /* AdvancedPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedPreferencesViewController.h; sourceTree = "<group>"; };
+		A07B19A614EE8BDF0028C315 /* AdvancedPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedPreferencesViewController.m; sourceTree = "<group>"; };
+		A07B19A714EE8BDF0028C315 /* AdvancedPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdvancedPreferencesViewController.xib; sourceTree = "<group>"; };
+		A081CEE514EFCD200034065A /* ShrinkageIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = ShrinkageIcon.icns; path = Shrinkage/Resources/ShrinkageIcon.icns; sourceTree = "<group>"; };
+		A08831E914F9262900E04F66 /* LaunchAtLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchAtLoginController.h; sourceTree = "<group>"; };
+		A08831EA14F9262900E04F66 /* LaunchAtLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchAtLoginController.m; sourceTree = "<group>"; };
+		A08831EB14F9262900E04F66 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A0887BBC14EE3E8E00C61067 /* MASPreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MASPreferencesWindow.xib; sourceTree = "<group>"; };
+		A0887BBD14EE3E8E00C61067 /* MASPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesViewController.h; sourceTree = "<group>"; };
+		A0887BBE14EE3E8E00C61067 /* MASPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASPreferencesWindowController.h; sourceTree = "<group>"; };
+		A0887BBF14EE3E8E00C61067 /* MASPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASPreferencesWindowController.m; sourceTree = "<group>"; };
+		A0887BC614EE3FE100C61067 /* GeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralPreferencesViewController.h; sourceTree = "<group>"; };
+		A0887BC714EE3FE100C61067 /* GeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralPreferencesViewController.m; sourceTree = "<group>"; };
+		A0887BC814EE3FE100C61067 /* GeneralPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralPreferencesViewController.xib; sourceTree = "<group>"; };
+		A0C3F67614E6F7660086C81B /* statusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusBarIcon.png; sourceTree = "<group>"; };
+		A0C3F67814E6F7EB0086C81B /* alternateStatusBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alternateStatusBarIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00DEAAA14E6A436007347DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00DEAF714E6A4DF007347DB /* CoreServices.framework in Frameworks */,
+				A00DEAB214E6A436007347DB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DEACD14E6A436007347DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00DEAD314E6A436007347DB /* SenTestingKit.framework in Frameworks */,
+				A00DEAD414E6A436007347DB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00DEAA214E6A436007347DB = {
+			isa = PBXGroup;
+			children = (
+				A081CEE514EFCD200034065A /* ShrinkageIcon.icns */,
+				A00DEAB714E6A436007347DB /* Shrinkage */,
+				A00DEAD714E6A436007347DB /* ShrinkageTests */,
+				A00DEAB014E6A436007347DB /* Frameworks */,
+				A00DEAAE14E6A436007347DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00DEAAE14E6A436007347DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00DEAAD14E6A436007347DB /* Shrinkage.app */,
+				A00DEAD114E6A436007347DB /* ShrinkageTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00DEAB014E6A436007347DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00DEAF614E6A4DF007347DB /* CoreServices.framework */,
+				A00DEAB114E6A436007347DB /* Cocoa.framework */,
+				A00DEAD214E6A436007347DB /* SenTestingKit.framework */,
+				A00DEAB314E6A436007347DB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00DEAB314E6A436007347DB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00DEAB414E6A436007347DB /* AppKit.framework */,
+				A00DEAB514E6A436007347DB /* CoreData.framework */,
+				A00DEAB614E6A436007347DB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A00DEAB714E6A436007347DB /* Shrinkage */ = {
+			isa = PBXGroup;
+			children = (
+				A0887BC514EE3FA400C61067 /* Preferences */,
+				A0887BC414EE3F6A00C61067 /* Libraries */,
+				A0C3F67514E6F7660086C81B /* Resources */,
+				A00DEAFB14E6A718007347DB /* Core Data */,
+				A00DEAC314E6A436007347DB /* AppDelegate.h */,
+				A00DEAC414E6A436007347DB /* AppDelegate.m */,
+				A00DEAC614E6A436007347DB /* MainMenu.xib */,
+				A00DEAB814E6A436007347DB /* Supporting Files */,
+				A00DEAFC14E6A7DC007347DB /* ResizeController.h */,
+				A00DEAFD14E6A7DC007347DB /* ResizeController.m */,
+			);
+			path = Shrinkage;
+			sourceTree = "<group>";
+		};
+		A00DEAB814E6A436007347DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00DEAB914E6A436007347DB /* Shrinkage-Info.plist */,
+				A00DEABA14E6A436007347DB /* InfoPlist.strings */,
+				A00DEABD14E6A436007347DB /* main.m */,
+				A00DEABF14E6A436007347DB /* Shrinkage-Prefix.pch */,
+				A00DEAC014E6A436007347DB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A00DEAD714E6A436007347DB /* ShrinkageTests */ = {
+			isa = PBXGroup;
+			children = (
+				A00DEADD14E6A436007347DB /* ShrinkageTests.h */,
+				A00DEADE14E6A436007347DB /* ShrinkageTests.m */,
+				A00DEAD814E6A436007347DB /* Supporting Files */,
+			);
+			path = ShrinkageTests;
+			sourceTree = "<group>";
+		};
+		A00DEAD814E6A436007347DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A00DEAD914E6A436007347DB /* ShrinkageTests-Info.plist */,
+				A00DEADA14E6A436007347DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A00DEAF414E6A469007347DB /* SCEvents */ = {
+			isa = PBXGroup;
+			children = (
+				A00DEAEC14E6A464007347DB /* SCConstants.h */,
+				A00DEAED14E6A464007347DB /* SCEvent.h */,
+				A00DEAEE14E6A464007347DB /* SCEvent.m */,
+				A00DEAEF14E6A464007347DB /* SCEventListenerProtocol.h */,
+				A00DEAF014E6A464007347DB /* SCEvents.h */,
+				A00DEAF114E6A464007347DB /* SCEvents.m */,
+			);
+			name = SCEvents;
+			sourceTree = "<group>";
+		};
+		A00DEAFB14E6A718007347DB /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A00DEAC914E6A436007347DB /* Shrinkage.xcdatamodeld */,
+				A00DEAF814E6A714007347DB /* ImageFile.h */,
+				A00DEAF914E6A714007347DB /* ImageFile.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		A08831E714F9261100E04F66 /* LaunchAtLoginController */ = {
+			isa = PBXGroup;
+			children = (
+				A08831E914F9262900E04F66 /* LaunchAtLoginController.h */,
+				A08831EA14F9262900E04F66 /* LaunchAtLoginController.m */,
+				A08831EB14F9262900E04F66 /* README.md */,
+			);
+			name = LaunchAtLoginController;
+			sourceTree = "<group>";
+		};
+		A0887BC314EE3E9300C61067 /* MASPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				A0887BBC14EE3E8E00C61067 /* MASPreferencesWindow.xib */,
+				A0887BBD14EE3E8E00C61067 /* MASPreferencesViewController.h */,
+				A0887BBE14EE3E8E00C61067 /* MASPreferencesWindowController.h */,
+				A0887BBF14EE3E8E00C61067 /* MASPreferencesWindowController.m */,
+			);
+			name = MASPreferences;
+			sourceTree = "<group>";
+		};
+		A0887BC414EE3F6A00C61067 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				A08831E714F9261100E04F66 /* LaunchAtLoginController */,
+				A00DEAF414E6A469007347DB /* SCEvents */,
+				A0887BC314EE3E9300C61067 /* MASPreferences */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		A0887BC514EE3FA400C61067 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				A0887BC614EE3FE100C61067 /* GeneralPreferencesViewController.h */,
+				A0887BC714EE3FE100C61067 /* GeneralPreferencesViewController.m */,
+				A0887BC814EE3FE100C61067 /* GeneralPreferencesViewController.xib */,
+				A07B19A514EE8BDF0028C315 /* AdvancedPreferencesViewController.h */,
+				A07B19A614EE8BDF0028C315 /* AdvancedPreferencesViewController.m */,
+				A07B19A714EE8BDF0028C315 /* AdvancedPreferencesViewController.xib */,
+			);
+			name = Preferences;
+			sourceTree = "<group>";
+		};
+		A0C3F67514E6F7660086C81B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A00ECE7E14EFD79C003D8AE6 /* rizerLogo.png */,
+				A0C3F67814E6F7EB0086C81B /* alternateStatusBarIcon.png */,
+				A0C3F67614E6F7660086C81B /* statusBarIcon.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00DEAAC14E6A436007347DB /* Shrinkage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00DEAE214E6A436007347DB /* Build configuration list for PBXNativeTarget "Shrinkage" */;
+			buildPhases = (
+				A00DEAA914E6A436007347DB /* Sources */,
+				A00DEAAA14E6A436007347DB /* Frameworks */,
+				A00DEAAB14E6A436007347DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shrinkage;
+			productName = Shrinkage;
+			productReference = A00DEAAD14E6A436007347DB /* Shrinkage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A00DEAD014E6A436007347DB /* ShrinkageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00DEAE514E6A436007347DB /* Build configuration list for PBXNativeTarget "ShrinkageTests" */;
+			buildPhases = (
+				A00DEACC14E6A436007347DB /* Sources */,
+				A00DEACD14E6A436007347DB /* Frameworks */,
+				A00DEACE14E6A436007347DB /* Resources */,
+				A00DEACF14E6A436007347DB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00DEAD614E6A436007347DB /* PBXTargetDependency */,
+			);
+			name = ShrinkageTests;
+			productName = ShrinkageTests;
+			productReference = A00DEAD114E6A436007347DB /* ShrinkageTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00DEAA414E6A436007347DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Rizer;
+			};
+			buildConfigurationList = A00DEAA714E6A436007347DB /* Build configuration list for PBXProject "Shrinkage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A00DEAA214E6A436007347DB;
+			productRefGroup = A00DEAAE14E6A436007347DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00DEAAC14E6A436007347DB /* Shrinkage */,
+				A00DEAD014E6A436007347DB /* ShrinkageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A00DEAAB14E6A436007347DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00DEABC14E6A436007347DB /* InfoPlist.strings in Resources */,
+				A00DEAC214E6A436007347DB /* Credits.rtf in Resources */,
+				A00DEAC814E6A436007347DB /* MainMenu.xib in Resources */,
+				A0C3F67714E6F7660086C81B /* statusBarIcon.png in Resources */,
+				A0C3F67914E6F7EB0086C81B /* alternateStatusBarIcon.png in Resources */,
+				A0887BC014EE3E8E00C61067 /* MASPreferencesWindow.xib in Resources */,
+				A0887BCA14EE3FE100C61067 /* GeneralPreferencesViewController.xib in Resources */,
+				A07B19A914EE8BDF0028C315 /* AdvancedPreferencesViewController.xib in Resources */,
+				A081CEE614EFCD200034065A /* ShrinkageIcon.icns in Resources */,
+				A00ECE7F14EFD79C003D8AE6 /* rizerLogo.png in Resources */,
+				A08831ED14F9262900E04F66 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DEACE14E6A436007347DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00DEADC14E6A436007347DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A00DEACF14E6A436007347DB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00DEAA914E6A436007347DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00DEABE14E6A436007347DB /* main.m in Sources */,
+				A00DEAC514E6A436007347DB /* AppDelegate.m in Sources */,
+				A00DEACB14E6A436007347DB /* Shrinkage.xcdatamodeld in Sources */,
+				A00DEAF214E6A464007347DB /* SCEvent.m in Sources */,
+				A00DEAF314E6A464007347DB /* SCEvents.m in Sources */,
+				A00DEAFA14E6A714007347DB /* ImageFile.m in Sources */,
+				A00DEAFE14E6A7DC007347DB /* ResizeController.m in Sources */,
+				A0887BC114EE3E8E00C61067 /* MASPreferencesWindowController.m in Sources */,
+				A0887BC914EE3FE100C61067 /* GeneralPreferencesViewController.m in Sources */,
+				A07B19A814EE8BDF0028C315 /* AdvancedPreferencesViewController.m in Sources */,
+				A08831EC14F9262900E04F66 /* LaunchAtLoginController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00DEACC14E6A436007347DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00DEADF14E6A436007347DB /* ShrinkageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A00DEAD614E6A436007347DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A00DEAAC14E6A436007347DB /* Shrinkage */;
+			targetProxy = A00DEAD514E6A436007347DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A00DEABA14E6A436007347DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00DEABB14E6A436007347DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A00DEAC014E6A436007347DB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00DEAC114E6A436007347DB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A00DEAC614E6A436007347DB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00DEAC714E6A436007347DB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A00DEADA14E6A436007347DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00DEADB14E6A436007347DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A00DEAE014E6A436007347DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A00DEAE114E6A436007347DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A00DEAE314E6A436007347DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/SDKs/CocoaMondoKit\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shrinkage/Shrinkage-Prefix.pch";
+				INFOPLIST_FILE = "Shrinkage/Shrinkage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A00DEAE414E6A436007347DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/SDKs/CocoaMondoKit\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shrinkage/Shrinkage-Prefix.pch";
+				INFOPLIST_FILE = "Shrinkage/Shrinkage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A00DEAE614E6A436007347DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shrinkage.app/Contents/MacOS/Shrinkage";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shrinkage/Shrinkage-Prefix.pch";
+				INFOPLIST_FILE = "ShrinkageTests/ShrinkageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A00DEAE714E6A436007347DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Shrinkage.app/Contents/MacOS/Shrinkage";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shrinkage/Shrinkage-Prefix.pch";
+				INFOPLIST_FILE = "ShrinkageTests/ShrinkageTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00DEAA714E6A436007347DB /* Build configuration list for PBXProject "Shrinkage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00DEAE014E6A436007347DB /* Debug */,
+				A00DEAE114E6A436007347DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00DEAE214E6A436007347DB /* Build configuration list for PBXNativeTarget "Shrinkage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00DEAE314E6A436007347DB /* Debug */,
+				A00DEAE414E6A436007347DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00DEAE514E6A436007347DB /* Build configuration list for PBXNativeTarget "ShrinkageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00DEAE614E6A436007347DB /* Debug */,
+				A00DEAE714E6A436007347DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A00DEAC914E6A436007347DB /* Shrinkage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A00DEACA14E6A436007347DB /* Shrinkage.xcdatamodel */,
+			);
+			currentVersion = A00DEACA14E6A436007347DB /* Shrinkage.xcdatamodel */;
+			path = Shrinkage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A00DEAA414E6A436007347DB /* Project object */;
+}
